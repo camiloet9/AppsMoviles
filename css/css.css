@@ -14,6 +14,7 @@ body{
     width: 1000px;
     margin: 30px auto;
     background: #FFFFFF;
+    text-align: center;
 }
 
 .navegacion ul{
@@ -57,4 +58,17 @@ body{
 .menu li:hover .submenu{
     visibility: visible;
     opacity: 1;
+}
+
+#cont{
+    text-align: center;
+}
+
+#imagen{
+    display:block;
+    margin:auto;
+    height: 1000px;
+    display: block;
+    width: 1000px;
+    color: #fff;
 }
