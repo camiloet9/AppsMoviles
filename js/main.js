@@ -34,8 +34,9 @@ function turnon(elemento){
         case 'b10':
             bonif.src = "bonificaciones/f10.html";
             break;
-
     }
+}
 
-
+function home(){
+    cuadro.style.display = "none";
 }
