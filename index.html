@@ -5,6 +5,7 @@
     <title>Super pagina</title>
     <link rel="stylesheet" type="text/css" href="css/css.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -14,22 +15,26 @@
                 <li><a href="#">Juego</a></li>
                 <li><a href="#">Bonificaciones</a>
                     <ul class="submenu">
-                        <li><a href="bonificaciones/f1.html">Figura 1</a></li>
-                        <li><a href="bonificaciones/f2.html">Figura 2</a></li>
-                        <li><a href="bonificaciones/f3.html">Figura 3</a></li>
-                        <li><a href="bonificaciones/f4.html">Figura 4</a></li>
-                        <li><a href="bonificaciones/f5.html">Figura 5</a></li>
-                        <li><a href="bonificaciones/f6.html">Figura 6</a></li>
-                        <li><a href="bonificaciones/f7.html">Figura 7</a></li>
-                        <li><a href="bonificaciones/f8.html">Figura 8</a></li>
-                        <li><a href="bonificaciones/f9.html">Figura 9</a></li>
-                        <li><a href="bonificaciones/f10.html">Figura 10</a></li>
+                        <li><a href="#" id="b1" onclick="turnon(this.id)">Figura 1</a></li>
+                        <li><a href="#" id="b2" onclick="turnon(this.id)">Figura 2</a></li>
+                        <li><a href="#" id="b3" onclick="turnon(this.id)">Figura 3</a></li>
+                        <li><a href="#" id="b4" onclick="turnon(this.id)">Figura 4</a></li>
+                        <li><a href="#" id="b5" onclick="turnon(this.id)">Figura 5</a></li>
+                        <li><a href="#" id="b6" onclick="turnon(this.id)">Figura 6</a></li>
+                        <li><a href="#" id="b7" onclick="turnon(this.id)">Figura 7</a></li>
+                        <li><a href="#" id="b8" onclick="turnon(this.id)">Figura 8</a></li>
+                        <li><a href="#" id="b9" onclick="turnon(this.id)">Figura 9</a></li>
+                        <li><a href="#" id="b10" onclick="turnon(this.id)">Figura 10</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Acerca de</a></li>
             </ul>
         </nav>
-        <div id="cont">
+        <footer id="conten">
+            <iframe id="bonif" src="bonificaciones/f1.html"></iframe>
+        </footer>
+
+        <div id="cont" >
             <img src="img/1.jpg" id="imagen">
         </div>  
     </header>
